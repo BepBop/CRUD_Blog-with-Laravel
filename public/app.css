@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "JetBrains Mono Medium", monospace;
+}
+
+article {
+    width: 50vw;
+    height: auto;
+}
+
+article + article {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid #b2b2b2;
+}
